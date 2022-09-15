@@ -18,3 +18,15 @@ const { data, error } = await useAsyncGql({
   variables: { limit: 8 },
 })
 </script>
+
+<style>
+:root {
+  --bg-color: #000;
+  --text-color: #FFF;
+}
+
+body, html {
+  background-color: var(--bg-color, #000000);
+  color: var(--text-color, #FFFFFF);
+}
+</style>
