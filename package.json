@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "prepare": "nuxi prepare",
+    "start": "nuxi preview"
+  },
+  "devDependencies": {
+    "nuxt": "^3.0.0-rc.8"
+  },
+  "dependencies": {
+    "nuxt-graphql-client": "^0.1.12"
+  }
+}
